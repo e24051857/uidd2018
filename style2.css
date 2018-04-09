@@ -1,0 +1,148 @@
+body{
+	background-color: #CCCCCC;
+}
+#back{
+	height:800px;
+	width:1100px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/bac.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:100%;
+}
+#left,#right{
+	display:inline-block;
+	vertical-align:top;
+}
+#left{
+	height:100%;
+	width:49%;
+	position:relative;
+}
+#lot{
+	height:50px;
+	width:150px;
+}
+#lot1,#lot2,#lot3,#lot4,#lot5,#lot6{
+	display:inline-block;
+	vertical-align:top;
+}
+#lot1{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/好運紅.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#lot2{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/幸運草.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#lot3{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/幸運橘.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#lot4{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/真灰心.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#lot5{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/晴天黃.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#lot6{
+	height:40px;
+	width:20px;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/憂鬱藍.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	top:160px;
+	left:70px;
+	opacity:0;
+}
+#wood{
+	height:300px;
+	width:30px;
+	position:absolute;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/籤支.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:100%;
+	left:370px;
+	top:300px;
+}
+#box{
+	height:50%;
+	width:80%;
+	position:absolute;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/籤桶.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:40%;
+	left:180px;
+	top:250px;
+}
+#cli{
+	height:50px;
+	width:180px;
+	position:absolute;
+	left:305px;
+	top:620px;
+	font-size:40px;
+	color:#ffffff;
+}
+#right{
+	height:100%;
+	width:49%;
+	position:relative;
+}
+#dol{
+	height:50%;
+	width:80%;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/qw.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:100%;
+	top:40%;
+	left:10%;
+}

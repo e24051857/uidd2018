@@ -1,0 +1,401 @@
+body{
+	background-color: #CCCCCC;
+}
+#left , #right{
+	display:inline-block;
+	vertical-align:top;
+}
+#left{
+	height:800px;
+	width:385px;
+}
+#left #go{
+	height:40%;
+	width:100%;
+	position:relative;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/趣.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:70%;
+}
+#left #logo{
+	height:40%;
+	width:100%;
+	position:relative;
+}
+#left #logo #top{
+	height:23%;
+	width:100%;
+}
+#left #logo #top #rbig,#left #logo #top #right1,#left #logo #top #right2,#left #logo #top #right3{
+    display:inline-block;
+	vertical-align:top;
+}
+#left #logo #top #rbig{
+	height:100%;
+	width:25%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/走.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:60%;
+	position:relative;
+	left:13%;
+}
+#left #logo #top #right1{
+	height:100%;
+	width:20%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳1a.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:40%;
+	position:relative;
+	left:10%;
+}
+#left #logo #top #right2{
+	height:100%;
+	width:20%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳1b.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:30%;
+	position:relative;
+	left:10%;
+}
+#left #logo #top #right3{
+	height:100%;
+	width:20%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳1c.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:20%;
+	position:relative;
+	left:10%;
+}
+#left #logo #bottom1{
+	height:23%;
+	width:25%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/取1.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:60%;
+	margin-top:-4%;
+	margin-left:17%;
+}
+#left #logo #bottom2{
+	height:23%;
+	width:25%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/取2.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:60%;
+	margin-top:-2%;
+	margin-left:17%;
+}
+#left #logo #bottom3{
+	height:23%;
+	width:25%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/取3.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:60%;
+	margin-top:-2%;
+	margin-left:17%;
+}
+#left #name{
+	height:15%;
+	width:100%;
+}
+#left #name #pic , #left #name #word{
+	display:inline-block;
+	vertical-align:top;
+}
+#left #name #pic{
+	height:100%;
+	width:20%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/取a.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	position:relative;
+	left:13%;
+}
+#left #name #word{
+	height:100%;
+	width:75%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/千.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	position:relative;
+	left:2%;
+}
+#right{
+	height:800px;
+	width:715px;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/map.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:90%;
+}
+#right #one{
+	height:20%;
+	width:100%;
+}
+#pic1 ,#feetout1 ,#push{
+	display:inline-block;
+	vertical-align:top;
+}
+#pic1{
+	height:100%;
+	width:30%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/赤.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:70%;
+	position:relative;
+	left:30%;
+	top:30%;
+}
+#feetout1{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:15%;
+	top:15%;
+}
+#feet1{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳1.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+}
+#push{
+	height:100%;
+	width:30%;
+	background-color:#CCCCCC;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/go.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:50%;
+	position:relative;
+	left:20%;
+}
+#tow{
+	height:30%;
+	width:100%;
+}
+#picout2 ,#picout3, #twof {
+	display:inline-block;
+	vertical-align:top;
+}
+#picout2{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:20%;
+	top:32%;
+}
+#pic2{
+	
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/天后.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:70%;
+	display:none;
+}
+#picout3{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:8%;
+	bottom:0%;
+}
+#pic3{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/武廟.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:70%;
+	display:none;
+}
+#twof{
+	height:100%;
+	width:30%;
+}
+#feet2{
+	height:50%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳2.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+	position:relative;
+	right:38%;
+	bottom:10%;
+	display:none;
+}
+#feet3{
+	height:50%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳2.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+	position:relative;
+	right:20%;
+	bottom:10%;
+	display:none;
+}
+#three{
+	height:15%;
+	width:100%;
+}
+#feetout4,#feetout5,#feetout6{
+	display:inline-block;
+	vertical-align:top;
+}
+#feetout4{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:13%;
+	bottom:19%;
+}
+#feetout5{
+	height:100%;
+	width:30%;
+	position:relative;	
+	left:0%;
+	bottom:43%;
+}
+#feetout6{
+	height:100%;
+	width:30%;	
+	position:relative;
+	bottom:20%;
+}
+#feet4{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳3.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:25%;
+	display:none;
+}
+#feet5{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳3.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:25%;
+	display:none;
+}
+#feet6{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳2.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+	display:none;
+}
+#four{
+	height:15%;
+	width:100%;
+}
+#feetout7,#picout4{
+	display:inline-block;
+	vertical-align:top;
+}
+#feetout7{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:17%;
+	bottom:35%;
+}
+#feet7{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳4.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+	display:none;
+}
+#picout4{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:20%;
+	bottom:50%;
+}
+#pic4{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/大井頭.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:70%;
+	display:none;
+}
+#five{
+	height:20%;
+	width:100%;
+}
+#feetout8,#feetout9,#feetout10{
+	display:inline-block;
+	vertical-align:top;
+}
+#feetout8{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:24%;
+	bottom:50%;
+}
+#feetout9{
+	height:100%;
+	width:30%;
+	position:relative;
+	left:12%;
+	bottom:50%;
+}
+#feetout10{
+	height:100%;
+	width:30%;
+	position:relative;
+	bottom:90%;
+}
+#feet8{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳4.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:35%;
+	display:none;
+}
+#feet9{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳5.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:25%;
+	display:none;
+}
+#feet10{
+	height:100%;
+	width:100%;
+	background-image:url(https://luffy.ee.ncku.edu.tw/~e24051857/PNG/腳5.png) ;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size:25%;
+	display:none;
+}

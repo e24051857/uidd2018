@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+    <link rel="stylesheet"  type="text/css"  href="style2.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+   <script>
+   $(document).ready(function(){
+   $("#box").click(function(){
+        var x = Math.floor(Math.random()*6+1);
+    	if(x==1){
+    	    var pic = "#lot1";
+    	}
+    	else if(x==2){
+    	    var pic = "#lot2";
+    	}
+    	else if(x==3){
+    	    var pic = "#lot3";
+    	}
+    	else if(x==4){
+    	    var pic = "#lot4";
+    	}
+    	else if(x==5){
+    	    var pic = "#lot5";
+    	}
+    	else {
+    	    var pic = "#lot6";
+    	}
+    	$("#cli").hide(0,function(){
+        $("#wood").animate({top: "-=250px"},"slow",function(){
+        $(pic).animate({left:"250px",opacity:"5.0",height:"500px",width:"500px"},1500,function(){
+        $("#box").animate({left: "-=150px"},"slow",function(){
+        $("#wood").animate({top: "+=180px"},"slow")
+        });});});});});});
+    </script>
+  </head>
+  <body>
+  <div id="back">
+    <div id="left">
+      <div id="lot">
+        <div id="lot1"></div>
+        <div id="lot2"></div>
+        <div id="lot3"></div>
+        <div id="lot4"></div>
+        <div id="lot5"></div>
+        <div id="lot6"></div>
+      </div>
+      <div id="wood"></div>
+      <div id="box"></div>
+      <div id="cli">點我抽籤</div>
+    </div>
+    <div id="right">
+      <div id="dol">
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
